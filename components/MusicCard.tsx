@@ -1,7 +1,7 @@
 import Image from "next/image"
 import React from "react"
 
-const MusicCard = ({ title, label, img }) => (
+const MusicCard = ({ title, label, img }: {title: string, label: string, img: string}) => (
     <div className="flex text-start items-end space-x-2">
         <div className="relative w-[100px] h-[100px]">
             <Image className="rounded-md cursor-pointer" src={img} alt={title} objectFit="contain" layout="fill" />
