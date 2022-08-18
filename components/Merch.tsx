@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { merch } from '../pages/const'
+import { merch } from '../public/const'
 import ShopItem from './ShopItem'
 
 

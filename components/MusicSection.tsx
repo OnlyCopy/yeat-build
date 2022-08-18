@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import { music } from '../pages/const'
+import { music } from '../public/const'
 import MusicCard from '../components/MusicCard'
 
 
